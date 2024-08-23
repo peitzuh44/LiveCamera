@@ -11,6 +11,8 @@
 		AF964B9A2C775784005B2301 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF964B992C775784005B2301 /* ContentView.swift */; };
 		AF964B9C2C775788005B2301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF964B9B2C775788005B2301 /* Assets.xcassets */; };
 		AF964B9F2C775788005B2301 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF964B9E2C775788005B2301 /* Preview Assets.xcassets */; };
+		AF964BA62C7757B7005B2301 /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF964BA52C7757B7005B2301 /* FrameView.swift */; };
+		AF964BA82C77597E005B2301 /* FrameHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF964BA72C77597E005B2301 /* FrameHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		AF964B992C775784005B2301 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AF964B9B2C775788005B2301 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF964B9E2C775788005B2301 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF964BA52C7757B7005B2301 /* FrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
+		AF964BA72C77597E005B2301 /* FrameHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				AF964B992C775784005B2301 /* ContentView.swift */,
 				AF964B9B2C775788005B2301 /* Assets.xcassets */,
 				AF964B9D2C775788005B2301 /* Preview Content */,
+				AF964BA52C7757B7005B2301 /* FrameView.swift */,
+				AF964BA72C77597E005B2301 /* FrameHandler.swift */,
 			);
 			path = LiveCamera;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF964BA62C7757B7005B2301 /* FrameView.swift in Sources */,
 				AF964B9A2C775784005B2301 /* ContentView.swift in Sources */,
+				AF964BA82C77597E005B2301 /* FrameHandler.swift in Sources */,
 				AF964B982C775784005B2301 /* LiveCameraApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,8 +280,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"LiveCamera/Preview Content\"";
+				DEVELOPMENT_TEAM = N5MYS96KJV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to access your camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -300,8 +310,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"LiveCamera/Preview Content\"";
+				DEVELOPMENT_TEAM = N5MYS96KJV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to access your camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
